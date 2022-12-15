@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/newspages">
+
+    <fragment
+        android:id="@+id/newspages"
+        android:name="com.jagat.jagatnews.ui.fragments.news_pages"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/news_app_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.jagat.jagatnews.ui.HindustanTimes.HomeFragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.jagat.jagatnews.ui.TheHindu.GalleryFragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.jagat.jagatnews.ui.DDNEWS.SlideshowFragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/indian_express_fragment"
+        android:name="com.jagat.jagatnews.ui.fragments.indian_express_fragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_indian_express_fragment" />
+    <fragment
+        android:id="@+id/toi_fragment"
+        android:name="com.jagat.jagatnews.ui.fragments.toi_fragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_toi_fragment" />
+    <fragment
+        android:id="@+id/wion_fragment"
+        android:name="com.jagat.jagatnews.ui.fragments.wion_fragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_wion_fragment" />
+    <fragment
+        android:id="@+id/economic_times"
+        android:name="com.jagat.jagatnews.ui.fragments.economic_times_fragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_economic_times" />
+    <fragment
+        android:id="@+id/sensex_fragment"
+        android:name="com.jagat.jagatnews.ui.fragments.sensex_fragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_sensex_fragment" />
+    <fragment
+        android:id="@+id/technology"
+        android:name="com.jagat.jagatnews.ui.fragments.tech_news_fragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_tech_news" />
+    <fragment
+        android:id="@+id/weather"
+        android:name="com.jagat.jagatnews.ui.fragments.weather_fragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_weather" />
+    <fragment
+        android:id="@+id/credits"
+        android:name="com.jagat.jagatnews.ui.fragments.credits_fragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_credits" />
+    <fragment
+        android:id="@+id/contact"
+        android:name="com.jagat.jagatnews.ui.fragments.contact_fragment"
+        android:label="@string/jagat_news"
+        tools:layout="@layout/fragment_contact" />
+
+
+
+</navigation>

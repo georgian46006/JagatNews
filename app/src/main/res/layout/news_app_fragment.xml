@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/hindustan_image"
+            android:layout_width="129dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="TODO"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hindustan_times"
+            tools:ignore="ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/hindustan"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Hindustan Times"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hindustan_image" />
+
+        <ImageView
+            android:id="@+id/thehindu_image"
+            android:layout_width="167dp"
+            android:layout_height="122dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toEndOf="@+id/hindustan_image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/thehindu" />
+
+        <Button
+            android:id="@+id/hindu"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:text="THE HINDU"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.431"
+            app:layout_constraintStart_toEndOf="@+id/hindustan"
+            app:layout_constraintTop_toBottomOf="@+id/thehindu_image" />
+
+        <ImageView
+            android:id="@+id/dd_image"
+            android:layout_width="138dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hindustan"
+            app:srcCompat="@drawable/ddnews" />
+
+        <Button
+            android:id="@+id/ddnews"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="DD NEWS"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dd_image" />
+
+        <ImageView
+            android:id="@+id/toi_image"
+            android:layout_width="129dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.107"
+            app:layout_constraintStart_toEndOf="@+id/dd_image"
+            app:layout_constraintTop_toBottomOf="@+id/hindu"
+            app:srcCompat="@drawable/toimage" />
+
+        <Button
+            android:id="@+id/toi"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="4dp"
+            android:text="TIMES OF INDIA"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.431"
+            app:layout_constraintStart_toEndOf="@+id/ddnews"
+            app:layout_constraintTop_toBottomOf="@+id/toi_image" />
+
+        <ImageView
+            android:id="@+id/ie_image"
+            android:layout_width="138dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ddnews"
+            app:srcCompat="@drawable/indianexpress" />
+
+        <Button
+            android:id="@+id/indianexpress"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="INDIAN EXPRESS"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ie_image" />
+
+        <ImageView
+            android:id="@+id/wion_image"
+            android:layout_width="138dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/ie_image"
+            app:layout_constraintTop_toBottomOf="@+id/toi"
+            app:srcCompat="@drawable/wion" />
+
+        <Button
+            android:id="@+id/wion"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="4dp"
+            android:text="WION"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.431"
+            app:layout_constraintStart_toEndOf="@+id/indianexpress"
+            app:layout_constraintTop_toBottomOf="@+id/wion_image" />
+<!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

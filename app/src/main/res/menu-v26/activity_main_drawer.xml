@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<!--    tools:showIn="navigation_view">-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news_pages"
+            android:title="All News"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_ht"
+            android:title="@string/hindustan_times"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_th"
+            android:title="@string/the_hindu"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_dd"
+            android:iconTint="#ff0000"
+            android:title="@string/dd_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/toi_fragment"
+            android:icon="@drawable/ic_toi"
+            android:title="@string/toi"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/indian_express_fragment"
+            android:icon="@drawable/ic_ie"
+            android:title="@string/indian_express"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/wion_fragment"
+            android:icon="@drawable/ic_wion"
+            android:title="@string/wion"
+            android:menuCategory="secondary"/>
+    </group>
+    <item android:title="@string/economy"
+        android:menuCategory="secondary">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/economic_times"
+                android:icon="@drawable/ic_et"
+                android:title="Economic Times"
+                android:menuCategory="secondary"/>
+            <item
+                android:id="@+id/sensex_fragment"
+                android:icon="@drawable/ic_sensex"
+                android:title="Sensex"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+    <item android:title="Technology"
+        android:menuCategory="secondary">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/technology"
+                android:icon="@drawable/ic_tech"
+                android:title="Tech News"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+    <item android:title="Sports News"
+        android:menuCategory="secondary">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/weather"
+                android:icon="@drawable/ic_sports"
+                android:title="Sports"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+    <item android:title="Credits"
+        android:menuCategory="secondary">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/credits"
+                android:title="Credits"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+    <item android:title="Contact"
+        android:menuCategory="secondary">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/contact"
+                android:title="Contact"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+</menu>
